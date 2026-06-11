@@ -1,0 +1,36 @@
+:root {
+  /* Palette - Dark Futuristic */
+  --bg-color: #0b0c15;
+  --bg-gradient: radial-gradient(circle at top right, #1a1c2e, #0b0c15);
+  --text-main: #ffffff;
+  --text-muted: #a0a0c0;
+  
+  /* Accents */
+  --primary: #00f2ff; /* Cyan Neon */
+  --primary-glow: rgba(0, 242, 255, 0.4);
+  --secondary: #7000ff; /* Electric Purple */
+  --secondary-glow: rgba(112, 0, 255, 0.4);
+  --success: #00ff9d;
+  --danger: #ff0055;
+  
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.08);
+  --glass-blur: blur(16px);
+  --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  
+  /* Neumorphism (Dark Theme) */
+  --neu-shadow-light: #161829;
+  --neu-shadow-dark: #05050a;
+  --neu-flat: linear-gradient(145deg, #0e0f19, #080911);
+  
+  /* Spacing & Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 999px;
+  
+  /* Transitions */
+  --trans-fast: 0.2s ease;
+  --trans-smooth: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

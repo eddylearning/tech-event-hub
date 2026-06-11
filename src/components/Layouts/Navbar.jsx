@@ -1,13 +1,20 @@
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="container">
-        <div className="navbar-brand">
-          <p>hello navbar</p>
-        </div>
+      <div className="nav-container">
+        <a href="/" className="logo">
+          TECH<span className="logo-accent">EVENT</span>
+        </a>
+
+        <ul className="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/events">Events</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
       </div>
     </nav>
   )
 }
 
-export default Navbar;
+export default Navbar
