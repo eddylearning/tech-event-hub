@@ -1,5 +1,5 @@
 import './App.css'
-import Navbar from './components/Layouts/Navbar'
+import Navbar from './components/Layouts/navbar'
 import Footer from './components/Layouts/footer'
 import ParticlesBackground from './components/ts-particals'
 
