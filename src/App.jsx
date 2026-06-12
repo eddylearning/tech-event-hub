@@ -1,7 +1,7 @@
 import './App.css'
-import Navbar from './components/Layouts/navbar'
-import Footer from './components/Layouts/footer'
-import ParticlesBackground from './components/ts-particals'
+import Navbar from './components/Layouts/Navbar'
+import Footer from './components/Layouts/Footer'
+import ParticlesBackground from './components/Ts-particals'
 
 function App() {
   return (
